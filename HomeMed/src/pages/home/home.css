@@ -1,0 +1,64 @@
+@import url(../../theme.css);
+#navbar {
+	height: fit-content;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: var(--primary-dark);
+	display: flex;
+	box-shadow: 50px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.navbar-item {
+	color: var(--font-light);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 20px;
+	background-color: var(--primary-dark);
+}
+
+.navbar-item:hover {
+	background-color: var(--primary);
+}
+
+.navbar-item:active {
+	background-color: var(--primary-very-dark);
+}
+
+#navbar > .current {
+	background-color: var(--primary-very-dark);
+}
+
+#text {
+	padding: 30px;
+}
+
+#ft {
+	padding: 100px;
+	background-color: var(--primary-light);
+	text-align: center;
+}
+
+
+/*page specific content starts from here*/
+#content {
+	margin-top: 60px;
+	width: 100vw;
+	text-align: center;
+}
+
+#content > #tagline {
+	font-family: 'Tangerine';
+	font-size: 100px;
+}
+
+#content > #networkImg {
+	width: 100%;
+	max-width: 667px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

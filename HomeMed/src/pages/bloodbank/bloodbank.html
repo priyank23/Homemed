@@ -1,0 +1,42 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Blood bank</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="bloodbank.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="bloodbank.js"></script>
+</head>
+
+<body>
+	<div id="navbar">
+		<div class="navbar-item" onclick="window.open('../home/home.html')">Home</div>
+		<div class="navbar-item current" onclick="window.open('../bloodbank/bloodbank.html')">Blood Bank</div>
+		<div class="navbar-item">Organ Donars</div>
+		<div class="navbar-item">Nearby clinics</div>
+		<div class="navbar-item" id="aboutUsNavbarItem" onclick="window.open('../About Us/aboutus.html')">About us</div>
+	</div>
+
+	
+	<div style="text-align: center; font-size: 125%; text-decoration: black; margin-top: 60px;">
+	Please submit the details to file a blood request</div>
+	<div id="content">
+		<form name="blood request">
+			<div id="user"><pre>
+						NAME      :  <input type="text" name="name" placeholder="Enter name" required><br>
+						EMAIL     :  <input type="text" name="email" placeholder="Enter EMAIL"><br>
+						CONTACT NO:  <input type="digit" name="contact" placeholder="Enter Contact"><br>
+						BLOOD TYPE:  <input type="text" name="blood" placeholer="Enter Blood group">
+
+						    <input type="submit" name="submit-btn" class="submitBtn" value="Submit" >
+			</pre></div>
+        </form>
+	</div>
+	<div id ="ft"> HomeMed community</div>
+
+</body>
+
+</html>

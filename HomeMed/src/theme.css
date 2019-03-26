@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+:root{
+	--primary-very-dark: #212121;
+	--primary-dark:#0d47a1;
+	--primary:#2196f3;
+	--primary-light:#bbdefb;
+	--font-light: white;
+	--font-dark: black;
+	--secodary:#69f0ae;
+	--secondary-light:#b9f6ca;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}

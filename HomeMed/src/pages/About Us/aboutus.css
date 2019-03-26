@@ -1,0 +1,71 @@
+@import url(../../theme.css);
+#navbar {
+	height: fit-content;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: var(--primary-dark);
+	display: flex;
+	box-shadow: 50px;
+	cursor: pointer;
+	user-select: none;
+	z-index: 1;
+}
+
+.navbar-item {
+	color: var(--font-light);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 20px;
+	background-color: var(--primary-dark);
+}
+
+.navbar-item:hover {
+	background-color: var(--primary);
+}
+
+.navbar-item:active {
+	background-color: var(--primary-very-dark);
+}
+
+#navbar > .current {
+	background-color: var(--primary-very-dark);
+}
+
+#text {
+	padding: 30px;
+}
+
+#ft {
+	top: 750px;
+	padding: 100px;
+	background-color: var(--primary-light);
+	text-align: center;
+}
+
+/*page specific content starts from here*/
+#content {
+	margin-top: 60px;
+	/*border:2px solid black;*/
+	height:400px;
+	background-color:#ffffff;
+	border-radius: 0px;
+}
+#user{
+	margin-left:84px;
+	margin-top:30px;
+	position:absolute;
+	color:black;
+	
+}
+.submitBtn {
+	background-color: #69f0ae;
+	margin-left:75px;
+	margin-top:15px;
+	position:absolute;
+	color:black;
+	width:80px;
+	height:30px;
+  float: left;
+}
